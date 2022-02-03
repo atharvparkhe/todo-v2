@@ -11,7 +11,7 @@ class send_verification_email(threading.Thread):
         try:
             otp = random.randint(100001, 999999)
             OTPModel.objects.create(otp=otp,is_valid=True ,user=UserModel.objects.get(email=self.email))
-            subject = "Link to verify the your Account"
+            subject = "OTP to verify the your Account"
             message = f"The OTP to verify your email is {otp} \nIts valid only for 5 mins."
             email_from = settings.EMAIL_HOST_USER
             print("Email send started")
