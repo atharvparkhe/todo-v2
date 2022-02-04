@@ -76,6 +76,8 @@ Enter your Email ID and Email Password as shown in the sreeenshot.
 
 Import the endpoints.json file in Thunder-Client/Postman or any other API dev tool.
 
+![Endpoints](docs/ss2.png)
+
 ***Step#7 :*** Make Migrations
 
 ```bash
