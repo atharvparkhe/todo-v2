@@ -42,39 +42,6 @@
 					"response": []
 				},
 				{
-					"name": "Verify",
-					"request": {
-						"method": "POST",
-						"header": [],
-						"body": {
-							"mode": "raw",
-							"raw": "{\n    \"otp\":704655\n}",
-							"options": {
-								"raw": {
-									"language": "json"
-								}
-							}
-						},
-						"url": {
-							"raw": "http://127.0.0.1:8000/api/verify/",
-							"protocol": "http",
-							"host": [
-								"127",
-								"0",
-								"0",
-								"1"
-							],
-							"port": "8000",
-							"path": [
-								"api",
-								"verify",
-								""
-							]
-						}
-					},
-					"response": []
-				},
-				{
 					"name": "Log In",
 					"request": {
 						"method": "POST",
@@ -147,7 +114,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n    \"otp\":587894,\n    \"npw\":321,\n    \"cpw\":321\n}",
+							"raw": "{\n    \"otp\":\"e99929db-da13-426d-8fca-19dd8ad6bab3\",\n    \"npw\":321,\n    \"cpw\":321\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -206,45 +173,11 @@
 						}
 					},
 					"response": []
-				},
-				{
-					"name": "Verify Resend",
-					"request": {
-						"method": "POST",
-						"header": [],
-						"body": {
-							"mode": "raw",
-							"raw": "{\n    \"email\":\"patharv777@gmail.com\"\n}",
-							"options": {
-								"raw": {
-									"language": "json"
-								}
-							}
-						},
-						"url": {
-							"raw": "http://127.0.0.1:8000/api/resend/verify/",
-							"protocol": "http",
-							"host": [
-								"127",
-								"0",
-								"0",
-								"1"
-							],
-							"port": "8000",
-							"path": [
-								"api",
-								"resend",
-								"verify",
-								""
-							]
-						}
-					},
-					"response": []
 				}
 			]
 		},
 		{
-			"name": "todo-main",
+			"name": "Todo",
 			"item": [
 				{
 					"name": "Get Todos",
@@ -253,7 +186,7 @@
 						"header": [
 							{
 								"key": "Authorization",
-								"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjQzOTA3MDE1LCJpYXQiOjE2NDM4MjA2MTUsImp0aSI6IjViYzJkMjkyZWFhZjQ1ZWFiNDZmNDRjY2ExM2YxYTNjIiwidXNlcl9pZCI6IjBkZWFhYWI4LTM5OWMtNDQ1Yi04NThlLTM3ZDM3NjYyZDBhMCJ9.DIQnB3FakpAbxFpzBoBRZL2dktEPqhTRvPUDWQC8EWo",
+								"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjQ0NDMwMDU0LCJpYXQiOjE2NDQzNDM2NTQsImp0aSI6IjhlN2EzZWI2Y2NlNjRlNDA4MDZkNWRhOTFkMGRjNTRjIiwidXNlcl9pZCI6ImE2ZWI2Y2Q3LTFjOWItNGU0Ni05ODY3LTI1NGIxNDE0YzBiZCJ9.9fQfIS2r3vggHeTAuF6so0A88nAlSxK_oxcr3F-86B8",
 								"type": "text"
 							}
 						],
@@ -283,13 +216,13 @@
 						"header": [
 							{
 								"key": "Authorization",
-								"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjQzOTA3MDE1LCJpYXQiOjE2NDM4MjA2MTUsImp0aSI6IjViYzJkMjkyZWFhZjQ1ZWFiNDZmNDRjY2ExM2YxYTNjIiwidXNlcl9pZCI6IjBkZWFhYWI4LTM5OWMtNDQ1Yi04NThlLTM3ZDM3NjYyZDBhMCJ9.DIQnB3FakpAbxFpzBoBRZL2dktEPqhTRvPUDWQC8EWo",
+								"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjQ0NDMwMDU0LCJpYXQiOjE2NDQzNDM2NTQsImp0aSI6IjhlN2EzZWI2Y2NlNjRlNDA4MDZkNWRhOTFkMGRjNTRjIiwidXNlcl9pZCI6ImE2ZWI2Y2Q3LTFjOWItNGU0Ni05ODY3LTI1NGIxNDE0YzBiZCJ9.9fQfIS2r3vggHeTAuF6so0A88nAlSxK_oxcr3F-86B8",
 								"type": "text"
 							}
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n    \"title\":\"new todo\",\n    \"description\":\"this is a new todo entity\"\n}",
+							"raw": "{\n    \"task\":\"new todo\"\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -322,7 +255,7 @@
 						"header": [
 							{
 								"key": "Authorization",
-								"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjQzOTA3MDE1LCJpYXQiOjE2NDM4MjA2MTUsImp0aSI6IjViYzJkMjkyZWFhZjQ1ZWFiNDZmNDRjY2ExM2YxYTNjIiwidXNlcl9pZCI6IjBkZWFhYWI4LTM5OWMtNDQ1Yi04NThlLTM3ZDM3NjYyZDBhMCJ9.DIQnB3FakpAbxFpzBoBRZL2dktEPqhTRvPUDWQC8EWo",
+								"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjQ0NDMwMDU0LCJpYXQiOjE2NDQzNDM2NTQsImp0aSI6IjhlN2EzZWI2Y2NlNjRlNDA4MDZkNWRhOTFkMGRjNTRjIiwidXNlcl9pZCI6ImE2ZWI2Y2Q3LTFjOWItNGU0Ni05ODY3LTI1NGIxNDE0YzBiZCJ9.9fQfIS2r3vggHeTAuF6so0A88nAlSxK_oxcr3F-86B8",
 								"type": "text"
 							}
 						],
@@ -336,7 +269,7 @@
 							}
 						},
 						"url": {
-							"raw": "http://127.0.0.1:8000/api/todo/af4f3b1a-cf37-4b3d-9842-bb1947dd80b8/",
+							"raw": "http://127.0.0.1:8000/api/todo/49e20232-a3d4-477d-aff2-ba4d28e24dfe/",
 							"protocol": "http",
 							"host": [
 								"127",
@@ -348,7 +281,7 @@
 							"path": [
 								"api",
 								"todo",
-								"af4f3b1a-cf37-4b3d-9842-bb1947dd80b8",
+								"49e20232-a3d4-477d-aff2-ba4d28e24dfe",
 								""
 							]
 						}
@@ -362,7 +295,7 @@
 						"header": [
 							{
 								"key": "Authorization",
-								"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjQzOTA3MDE1LCJpYXQiOjE2NDM4MjA2MTUsImp0aSI6IjViYzJkMjkyZWFhZjQ1ZWFiNDZmNDRjY2ExM2YxYTNjIiwidXNlcl9pZCI6IjBkZWFhYWI4LTM5OWMtNDQ1Yi04NThlLTM3ZDM3NjYyZDBhMCJ9.DIQnB3FakpAbxFpzBoBRZL2dktEPqhTRvPUDWQC8EWo",
+								"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjQ0NDMwMDU0LCJpYXQiOjE2NDQzNDM2NTQsImp0aSI6IjhlN2EzZWI2Y2NlNjRlNDA4MDZkNWRhOTFkMGRjNTRjIiwidXNlcl9pZCI6ImE2ZWI2Y2Q3LTFjOWItNGU0Ni05ODY3LTI1NGIxNDE0YzBiZCJ9.9fQfIS2r3vggHeTAuF6so0A88nAlSxK_oxcr3F-86B8",
 								"type": "text"
 							}
 						],
@@ -376,7 +309,7 @@
 							}
 						},
 						"url": {
-							"raw": "http://127.0.0.1:8000/api/todo/af4f3b1a-cf37-4b3d-9842-bb1947dd80b8/",
+							"raw": "http://127.0.0.1:8000/api/todo/49e20232-a3d4-477d-aff2-ba4d28e24dfe/",
 							"protocol": "http",
 							"host": [
 								"127",
@@ -388,7 +321,7 @@
 							"path": [
 								"api",
 								"todo",
-								"af4f3b1a-cf37-4b3d-9842-bb1947dd80b8",
+								"49e20232-a3d4-477d-aff2-ba4d28e24dfe",
 								""
 							]
 						}

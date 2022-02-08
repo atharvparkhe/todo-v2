@@ -4,7 +4,5 @@ from authentication.models import UserModel
 
 class TodoModel(BaseModel):
     user = models.ForeignKey(UserModel, on_delete=models.CASCADE)
-    img = models.ImageField(upload_to="img", null=True, blank=True)
-    title = models.CharField(max_length=50)
-    description = models.TextField()
+    task = models.CharField(max_length=50)
     is_completed = models.BooleanField(default=False)
