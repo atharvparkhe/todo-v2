@@ -1,7 +1,7 @@
 
-# Todo Application
+# Todo Application V2
 
-This is a basic Todo Application (with Authentication) API using Django Rest Framework.
+This is a Todo Application (with Authentication) API using Django Rest Framework.
 
 **Auth Section** - User can create an account an account (Signup), login, change its password.
 
@@ -67,20 +67,20 @@ Enter your Email ID and Email Password as shown in the sreeenshot.
 
 ![ENV file](docs/ss1.png)
 
-***Step#5 :*** Import Endpoints
+***Step#7 :*** Import Endpoints
 
 Import the endpoints.json file in Thunder-Client/Postman or any other API dev tool.
 
 ![Endpoints](docs/ss2.png)
 
-***Step#7 :*** Make Migrations
+***Step#8 :*** Make Migrations
 
 ```bash
   python3 manage.py makemigrations
   python3 manage.py migrate
 ```
 
-***Step#8 :*** Run Server
+***Step#9 :*** Run Server
 
 ```bash
   python3 manage.py runserver
