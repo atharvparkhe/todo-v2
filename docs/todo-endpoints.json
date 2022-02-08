@@ -23,15 +23,13 @@
 							}
 						},
 						"url": {
-							"raw": "http://127.0.0.1:8000/api/signup/",
-							"protocol": "http",
+							"raw": "https://django-todo-v2.herokuapp.com/api/signup/",
+							"protocol": "https",
 							"host": [
-								"127",
-								"0",
-								"0",
-								"1"
+								"django-todo-v2",
+								"herokuapp",
+								"com"
 							],
-							"port": "8000",
 							"path": [
 								"api",
 								"signup",
@@ -56,15 +54,13 @@
 							}
 						},
 						"url": {
-							"raw": "http://127.0.0.1:8000/api/login/",
-							"protocol": "http",
+							"raw": "https://django-todo-v2.herokuapp.com/api/login/",
+							"protocol": "https",
 							"host": [
-								"127",
-								"0",
-								"0",
-								"1"
+								"django-todo-v2",
+								"herokuapp",
+								"com"
 							],
-							"port": "8000",
 							"path": [
 								"api",
 								"login",
@@ -89,15 +85,13 @@
 							}
 						},
 						"url": {
-							"raw": "http://127.0.0.1:8000/api/forgot/",
-							"protocol": "http",
+							"raw": "https://django-todo-v2.herokuapp.com/api/forgot/",
+							"protocol": "https",
 							"host": [
-								"127",
-								"0",
-								"0",
-								"1"
+								"django-todo-v2",
+								"herokuapp",
+								"com"
 							],
-							"port": "8000",
 							"path": [
 								"api",
 								"forgot",
@@ -122,15 +116,13 @@
 							}
 						},
 						"url": {
-							"raw": "http://127.0.0.1:8000/api/reset/",
-							"protocol": "http",
+							"raw": "https://django-todo-v2.herokuapp.com/api/reset/",
+							"protocol": "https",
 							"host": [
-								"127",
-								"0",
-								"0",
-								"1"
+								"django-todo-v2",
+								"herokuapp",
+								"com"
 							],
-							"port": "8000",
 							"path": [
 								"api",
 								"reset",
@@ -155,15 +147,13 @@
 							}
 						},
 						"url": {
-							"raw": "http://127.0.0.1:8000/api/resend/forgot/",
-							"protocol": "http",
+							"raw": "https://django-todo-v2.herokuapp.com/api/resend/forgot/",
+							"protocol": "https",
 							"host": [
-								"127",
-								"0",
-								"0",
-								"1"
+								"django-todo-v2",
+								"herokuapp",
+								"com"
 							],
-							"port": "8000",
 							"path": [
 								"api",
 								"resend",
@@ -191,15 +181,13 @@
 							}
 						],
 						"url": {
-							"raw": "http://127.0.0.1:8000/api/todo/",
-							"protocol": "http",
+							"raw": "https://django-todo-v2.herokuapp.com/api/todo/",
+							"protocol": "https",
 							"host": [
-								"127",
-								"0",
-								"0",
-								"1"
+								"django-todo-v2",
+								"herokuapp",
+								"com"
 							],
-							"port": "8000",
 							"path": [
 								"api",
 								"todo",
@@ -230,15 +218,13 @@
 							}
 						},
 						"url": {
-							"raw": "http://127.0.0.1:8000/api/todo/",
-							"protocol": "http",
+							"raw": "https://django-todo-v2.herokuapp.com/api/todo/",
+							"protocol": "https",
 							"host": [
-								"127",
-								"0",
-								"0",
-								"1"
+								"django-todo-v2",
+								"herokuapp",
+								"com"
 							],
-							"port": "8000",
 							"path": [
 								"api",
 								"todo",
@@ -269,15 +255,13 @@
 							}
 						},
 						"url": {
-							"raw": "http://127.0.0.1:8000/api/todo/49e20232-a3d4-477d-aff2-ba4d28e24dfe/",
-							"protocol": "http",
+							"raw": "https://django-todo-v2.herokuapp.com/api/todo/49e20232-a3d4-477d-aff2-ba4d28e24dfe/",
+							"protocol": "https",
 							"host": [
-								"127",
-								"0",
-								"0",
-								"1"
+								"django-todo-v2",
+								"herokuapp",
+								"com"
 							],
-							"port": "8000",
 							"path": [
 								"api",
 								"todo",
@@ -309,15 +293,13 @@
 							}
 						},
 						"url": {
-							"raw": "http://127.0.0.1:8000/api/todo/49e20232-a3d4-477d-aff2-ba4d28e24dfe/",
-							"protocol": "http",
+							"raw": "https://django-todo-v2.herokuapp.com/api/todo/49e20232-a3d4-477d-aff2-ba4d28e24dfe/",
+							"protocol": "https",
 							"host": [
-								"127",
-								"0",
-								"0",
-								"1"
+								"django-todo-v2",
+								"herokuapp",
+								"com"
 							],
-							"port": "8000",
 							"path": [
 								"api",
 								"todo",
