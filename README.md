@@ -46,13 +46,13 @@ Django, Django Rest Framework, Simple JWT using Python.
 ***Step#3 :*** Clone the project
 
 ```bash
-  git clone https://github.com/atharvparkhe/todo.git
+  git clone https://github.com/atharvparkhe/todo-v2.git
 ```
 
 ***Step#4 :*** Go to the project directory
 
 ```bash
-  cd todo
+  cd todo-v2
 ```
 
 ***Step#5 :*** Install dependencies
